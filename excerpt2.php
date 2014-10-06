@@ -1,7 +1,7 @@
 <?php 
 
 /* If method is set change API call made. Test is called by default. */
-$content = $connection->get('statuses/user_timeline', array('count' => '25', 'exclude_replies' => true, 'include_rts' => false));
+$content = $connection->get('statuses/user_timeline', array('count' => '50', 'exclude_replies' => true, 'include_rts' => false));
 $embedTweet = $connection->get('statuses/oembed', array('id' => $luckiestTweetId));
 
 /* Convert the return for TwitterOauth to go with the code written for Twitter-API-PHP */
