@@ -22,7 +22,7 @@ if(count($string)<7){
 /*
 First, some error reporting
 */
-	exit("You need to tweet some more so our robot fortune tellers can calculate your luck!<br/><em>(Retweets and Replies don't count!)</em>");
+	echo "You need to tweet some more so our robot fortune tellers can calculate your luck!<br/><em>(Retweets and Replies don't count!)</em>";
 	}else{
 
 $lottoArray = array();
